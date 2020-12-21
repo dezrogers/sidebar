@@ -1,3 +1,4 @@
+# syntax = docker/dockerfile:1.0-experimental
 FROM node:latest
 
 # Create app dir
@@ -5,14 +6,8 @@ WORKDIR usr/src/app/
 
 # Install dependencies
 COPY package*.json ./
+RUN npm install
 
-# Build code for production
-RUN npm ci --only-production
-
-# Build code for development
-# RUN npm install
-
-# Bundle app source
 COPY . .
 
 # THE LIFE SAVER
