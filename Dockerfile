@@ -8,17 +8,6 @@ WORKDIR usr/src/app/
 COPY package*.json ./
 RUN npm install
 
-# Define build args
-ARG db_host
-ARG db_pass
-ARG db_name
-
-# Set env vars
-ENV DB_HOST=$db_host
-ENV DB_NAME=$db_name
-ENV DB_USER=$db_name
-ENV DB_PASS=$db_pass
-
 COPY . .
 
 # THE LIFE SAVER
