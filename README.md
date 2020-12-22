@@ -3,7 +3,13 @@
 ## About the Project
 > Sidebar is a service responsible for delivering content and representational data as a module for [kle-io](https://github.com/kle-io), a single page music player app. :metal:
 
-[Demo](https://giphy.com/gifs/WmuKrHEy9GItF1yfHL/fullscreen)
+[Demo](54.177.87.25)
+
+### Features
+* The main page with render the service for 1 of 100 available songs
+* Add a number to the end of the url to see a new song
+* Play any song from the "Related Tracks" section
+* Auto-play for the next song in the "Related Tracks" list
 
 ### Built With
 
@@ -15,6 +21,9 @@
 * [Enzyme](https://github.com/enzymejs/enzyme)
 * [Webpack](https://github.com/webpack/webpack)
 * [Grunt](https://github.com/gruntjs/grunt)
+* GitHub Actions
+* AWS ECS
+* Docker
 * :sparkles: A little razzle dazzle :sparkles:
 
 ## Getting Started
