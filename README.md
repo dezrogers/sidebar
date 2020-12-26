@@ -3,7 +3,9 @@
 ## About the Project
 > Sidebar is a service responsible for delivering content and representational data as a module for [kle-io](https://github.com/kle-io), a single page music player app. :metal:
 
-[Demo](54.177.87.25)
+### Demos  
+* [Service](54.177.87.25) (Live)
+* [App](https://drive.google.com/file/d/1y56dakHJCVwi5fkf_E2Fv8YsWZWvHKSs/view?usp=sharing)  
 
 ### Features
 * The main page with render the service for 1 of 100 available songs
